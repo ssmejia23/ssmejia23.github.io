@@ -17,13 +17,13 @@
 <reading>
 <include-reading>1</include-reading>
 <reading-title>CONSTRUCCION DE FIGURAS GEOMETRICAS</reading-title>
-<reading-text>&amp;#x003C;iframe width=&quot;300&quot; height=&quot;300&quot; src=&quot;https://www.youtube.com/embed/00HKjTrnhnw&quot; title=&quot;Como hacer una pir&amp;#x00E1;mide pentagonal. R&amp;#x00E1;pido y f&amp;#x00E1;cil / Pentagonal pyramid&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&quot; allowfullscreen&amp;#x003E;&amp;#x003C;/iframe&amp;#x003E;
+<reading-text>&amp;#x003C;iframe width=&quot;260&quot; height=&quot;300&quot; src=&quot;https://www.youtube.com/embed/00HKjTrnhnw&quot; title=&quot;Como hacer una pir&amp;#x00E1;mide pentagonal. R&amp;#x00E1;pido y f&amp;#x00E1;cil / Pentagonal pyramid&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&quot; allowfullscreen&amp;#x003E;&amp;#x003C;/iframe&amp;#x003E;
 
 
-&amp;#x003C;iframe width=&quot;300&quot; height=&quot;300&quot; src=&quot;https://www.youtube.com/embed/4Iv1AX_vG9U&quot; title=&quot;Como hacer un prisma hexagonal / Hexagonal prism&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&quot; allowfullscreen&amp;#x003E;&amp;#x003C;/iframe&amp;#x003E;
+&amp;#x003C;iframe width=&quot;260&quot; height=&quot;300&quot; src=&quot;https://www.youtube.com/embed/4Iv1AX_vG9U&quot; title=&quot;Como hacer un prisma hexagonal / Hexagonal prism&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&quot; allowfullscreen&amp;#x003E;&amp;#x003C;/iframe&amp;#x003E;
 
 
-&amp;#x003C;iframe width=&quot;300&quot; height=&quot;300&quot; src=&quot;https://www.youtube.com/embed/idRgplNG2nM&quot; title=&quot;COMO HACER UN CONO &amp;#x2013; R&amp;#x00E1;pido y f&amp;#x00E1;cil&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&quot; allowfullscreen&amp;#x003E;&amp;#x003C;/iframe&amp;#x003E;
+&amp;#x003C;iframe width=&quot;260&quot; height=&quot;300&quot; src=&quot;https://www.youtube.com/embed/idRgplNG2nM&quot; title=&quot;COMO HACER UN CONO &amp;#x2013; R&amp;#x00E1;pido y f&amp;#x00E1;cil&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&quot; allowfullscreen&amp;#x003E;&amp;#x003C;/iframe&amp;#x003E;
 
 </reading-text>
 
@@ -90,14 +90,14 @@
 <include-scorm-12>0</include-scorm-12>
 <your-score-is>Su puntuacion es:</your-score-is>
 <keypad-characters></keypad-characters>
-<next-ex-caption>&amp;#x003C;img src=&quot;Imagen/siguiente1.png&quot; alt=&quot;siguiente1.png&quot; title=&quot;siguiente1&quot; width=&quot;100&quot; height=&quot;28&quot;&amp;#x003E;&amp;#x003C;/img&amp;#x003E;</next-ex-caption>
+<next-ex-caption>&amp;#x003C;img src=&quot;../../../../../Nueva Espa&amp;#x00F1;a/2023 programas/template616/Imagen/Iniciar.png&quot; alt=&quot;Iniciar.png&quot; title=&quot;Iniciar&quot; width=&quot;100&quot; height=&quot;28&quot;/&amp;#x003E;</next-ex-caption>
 <back-caption>&amp;#x003C;img src=&quot;Imagen/anterior1.png&quot; alt=&quot;anterior1.png&quot; title=&quot;anterior1&quot; width=&quot;80&quot; height=&quot;22&quot;&amp;#x003E;&amp;#x003C;/img&amp;#x003E;</back-caption>
 <contents-caption>&amp;#x003C;img src=&quot;Imagen/inidece1.png&quot; alt=&quot;inidece1.png&quot; title=&quot;inidece1&quot; width=&quot;100&quot; height=&quot;28&quot;&amp;#x003E;&amp;#x003C;/img&amp;#x003E;</contents-caption>
 <include-next-ex>1</include-next-ex>
 <include-contents>1</include-contents>
 <include-back>1</include-back>
-<contents-url>E3.htm</contents-url>
-<contents-url>E3.htm</contents-url>
+<contents-url>poli.htm</contents-url>
+<contents-url>poli.htm</contents-url>
 <graphic-url></graphic-url>
 <font-face>Geneva,Arial,sans-serif</font-face>
 <font-size>small</font-size>

@@ -5,7 +5,7 @@
 
 <meta name="dc:creator" content="sergio" />
 <meta name="dc:creator" content="Sergio Mejia Rivera" />
-<meta name="dc:title" content="&#x003C;img src=&quot;imagenes/por22.PNG&quot; alt=&quot;por22.PNG&quot; title=&quot;por22&quot; width=&quot;400&quot; height=&quot;64&quot;/&#x003E;" />
+<meta name="dc:title" content="&#x003C;img src=&quot;../../../../../2023/Imagen/pol9.PNG&quot; alt=&quot;pol9.PNG&quot; title=&quot;pol9&quot; width=&quot;400&quot; height=&quot;50&quot;/&#x003E;" />
 
 
 
@@ -33,23 +33,23 @@
 
 /* CSS variables for colours. */
 :root{
-	--strFontFace:       arial,helvetica,sans-serif;
+	--strFontFace:       Geneva,Arial,sans-serif;
 	--strFontSize:       small;
 	--strTextColor:      #000000;
 	--strTitleColor:     #000000;
 
-	--strFuncLightColor: #000000;
-	--strFuncShadeColor: #000000;
-	--strLinkColor:      #0000ff;
-	--strVLinkColor:     #ff00ff;
+	--strFuncLightColor: #ffffff;
+	--strFuncShadeColor: #7f7f7f;
+	--strLinkColor:      #0000FF;
+	--strVLinkColor:     #0000CC;
 	
-	--strNavBarColor:    #00ffff;
-	--strNavLightColor:  #7fffff;
-	--strNavShadeColor:  #007f7f;
+	--strNavBarColor:    #c0c0c0;
+	--strNavLightColor:  #dfdfdf;
+	--strNavShadeColor:  #606060;
 	--strNavTextColor:   #000000;
 	
-	--strPageBGColor:    #ffffff;
-	
+	--strPageBGColor:    #80ffff;
+	--strExBGColor:      #FFFFFF;
 }
 
 body{
@@ -97,7 +97,7 @@ button{
 }
 
 div.StdDiv, div.ExerciseContainer, div.ReadingContainer{
-
+	background-color: var(--strExBGColor);
 	text-align: center;
 	font-size: 1em;
 	color: var(--strTextColor);
@@ -273,7 +273,7 @@ table.FlashcardTable tr{
 	border-style: none;
 	margin: 0px;
 	padding: 0px;
-
+	background-color: var(--strExBGColor);
 }
 
 table.FlashcardTable td.Showing{
@@ -547,6 +547,13 @@ div.ShortAnswer{
 	padding: 0.5em;
 	min-width: 3em;
 
+	border-left-color: var(--strFuncLightColor);
+	border-top-color: var(--strFuncLightColor);
+	border-right-color: var(--strFuncShadeColor);
+	border-bottom-color: var(--strFuncShadeColor);
+	color: var(--strTextColor);
+	background-color: var(--strExBGColor);
+
 	border-width: 1pt;
 	cursor: pointer;	
 	box-shadow: 0.2em 0.3em 0.2em var(--strFuncShadeColor);
@@ -624,7 +631,7 @@ div.CardStyle {
 	border-width: 1pt;
 	color: var(--strTextColor);
 	box-shadow: 0.2em 0.3em 0.2em var(--strTextColor);
-
+	background-color: var(--strExBGColor);
 	left: -50px;
 	top: -50px;
 	overflow: visible;
@@ -1053,7 +1060,7 @@ function StartUp(){
 
 
 
-	PreloadImages('Imagen/anterior1.png','imagen/Iniciar.png','Imagen/siguiente1.png','imagenes/por22.PNG','../../../../../2023/Imagen/trapecio.PNG','Imagen/comprobar1.png','../../../../../2023/Imagen/t1.PNG','../../../../../2023/Imagen/t2.PNG','../../../../../2023/Imagen/t3.PNG','../../../../../2023/Imagen/t4.PNG','../../../../../2023/Imagen/t5.PNG','../../../../../2023/Imagen/t6.PNG');
+	PreloadImages('Imagen/anterior1.png','Imagen/inidece1.png','../../../../../Nueva Espa&#x00F1;a/2023 programas/template616/Imagen/Iniciar.png','../../../../../2023/Imagen/pol9.PNG','../../../../../2023/Imagen/trapecio.PNG','Imagen/comprobar1.png','../../../../../2023/Imagen/t1.PNG','../../../../../2023/Imagen/t2.PNG','../../../../../2023/Imagen/t3.PNG','../../../../../2023/Imagen/t4.PNG','../../../../../2023/Imagen/t5.PNG','../../../../../2023/Imagen/t6.PNG','Imagen/siguiente1.png');
 
 
 	var i = 0;
@@ -1410,15 +1417,15 @@ function DownTime(){
 <div class="NavButtonBar" id="TopNavBar">
 
 
-<button class="NavButton" onclick="history.back(); return false;"><img src="Imagen/anterior1.png" alt="anterior1.png" title="anterior1" width="100" height="28"></img></button>
+<button class="NavButton" onclick="history.back(); return false;"><img src="Imagen/anterior1.png" alt="anterior1.png" title="anterior1" width="80" height="22"></img></button>
 
 
 
-<button class="NavButton" onclick="location='poli.htm'; return false;"> <img src="imagen/Iniciar.png" alt="Iniciar.png" title="Iniciar" width="94" height="38"/> </button>
+<button class="NavButton" onclick="location='E3.htm'; return false;"> <img src="Imagen/inidece1.png" alt="inidece1.png" title="inidece1" width="100" height="28"></img> </button>
 
 
 
-<button class="NavButton" onclick="location='index.htm'; return false;"><img src="Imagen/siguiente1.png" alt="siguiente1.png" title="siguiente1" width="100" height="28"></img></button>
+<button class="NavButton" onclick="location='index.html'; return false;"><img src="../../../../../Nueva Espa&#x00F1;a/2023 programas/template616/Imagen/Iniciar.png" alt="Iniciar.png" title="Iniciar" width="100" height="28"/></button>
 
 
 </div>
@@ -1428,7 +1435,7 @@ function DownTime(){
 <!-- EndTopNavButtons -->
 
 <div class="Titles">
-	<h2 class="ExerciseTitle"><img src="imagenes/por22.PNG" alt="por22.PNG" title="por22" width="400" height="64"/></h2>
+	<h2 class="ExerciseTitle"><img src="../../../../../2023/Imagen/pol9.PNG" alt="pol9.PNG" title="pol9" width="400" height="50"/></h2>
 
 
 <div id="Timer"><span id="TimerText">&#160;&#160;</span></div>
@@ -1449,7 +1456,7 @@ function DownTime(){
 	<div id="Reading">
 
 		<div id="ReadingDiv">
-<h3 class="ExerciseSubtitle">EENCUENTRA EL AREA DE FIGURA GEOMETRICA </h3><div class="ReadingText"><br /><a style="cursor: pointer; text-decoration: underline;" onclick="window.open('https://www.youtube.com/watch?v=4CQlz5PwLR4');return false;">Haga clic aqu&#x00ED;</a><br /><br /><img src="../../../../../2023/Imagen/trapecio.PNG" alt="trapecio.PNG" title="trapecio" width="572" height="406"/></div>
+<h3 class="ExerciseSubtitle">EENCUENTRA EL AREA DE FIGURA GEOMETRICA </h3><div class="ReadingText"><br /><img src="../../../../../2023/Imagen/trapecio.PNG" alt="trapecio.PNG" title="trapecio" width="572" height="406"/></div>
 		</div>
 	</div>
 
@@ -1502,15 +1509,15 @@ function DownTime(){
 <div class="NavButtonBar" id="BottomNavBar">
 
 
-<button class="NavButton" onclick="history.back(); return false;"><img src="Imagen/anterior1.png" alt="anterior1.png" title="anterior1" width="100" height="28"></img></button>
+<button class="NavButton" onclick="history.back(); return false;"><img src="Imagen/anterior1.png" alt="anterior1.png" title="anterior1" width="80" height="22"></img></button>
 
 
 
-<button class="NavButton" onclick="location='poli.htm'; return false;"> <img src="imagen/Iniciar.png" alt="Iniciar.png" title="Iniciar" width="94" height="38"/> </button>
+<button class="NavButton" onclick="location='E3.htm'; return false;"> <img src="Imagen/inidece1.png" alt="inidece1.png" title="inidece1" width="100" height="28"></img> </button>
 
 
 
-<button class="NavButton" onclick="location='index.htm'; return false;"><img src="Imagen/siguiente1.png" alt="siguiente1.png" title="siguiente1" width="100" height="28"></img></button>
+<button class="NavButton" onclick="location='index.html'; return false;"><img src="../../../../../Nueva Espa&#x00F1;a/2023 programas/template616/Imagen/Iniciar.png" alt="Iniciar.png" title="Iniciar" width="100" height="28"/></button>
 
 
 </div>
