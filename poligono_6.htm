@@ -33,23 +33,23 @@
 
 /* CSS variables for colours. */
 :root{
-	--strFontFace:       Geneva,Arial,sans-serif;
+	--strFontFace:       arial,helvetica,sans-serif;
 	--strFontSize:       small;
 	--strTextColor:      #000000;
 	--strTitleColor:     #000000;
 
-	--strFuncLightColor: #ffffff;
-	--strFuncShadeColor: #7f7f7f;
-	--strLinkColor:      #0000FF;
-	--strVLinkColor:     #0000CC;
+	--strFuncLightColor: #000000;
+	--strFuncShadeColor: #000000;
+	--strLinkColor:      #0000ff;
+	--strVLinkColor:     #ff00ff;
 	
-	--strNavBarColor:    #c0c0c0;
-	--strNavLightColor:  #dfdfdf;
-	--strNavShadeColor:  #606060;
+	--strNavBarColor:    #00ffff;
+	--strNavLightColor:  #7fffff;
+	--strNavShadeColor:  #007f7f;
 	--strNavTextColor:   #000000;
 	
-	--strPageBGColor:    #80ffff;
-	--strExBGColor:      #FFFFFF;
+	--strPageBGColor:    #ffffff;
+	
 }
 
 body{
@@ -97,7 +97,7 @@ button{
 }
 
 div.StdDiv, div.ExerciseContainer, div.ReadingContainer{
-	background-color: var(--strExBGColor);
+
 	text-align: center;
 	font-size: 1em;
 	color: var(--strTextColor);
@@ -273,7 +273,7 @@ table.FlashcardTable tr{
 	border-style: none;
 	margin: 0px;
 	padding: 0px;
-	background-color: var(--strExBGColor);
+
 }
 
 table.FlashcardTable td.Showing{
@@ -547,13 +547,6 @@ div.ShortAnswer{
 	padding: 0.5em;
 	min-width: 3em;
 
-	border-left-color: var(--strFuncLightColor);
-	border-top-color: var(--strFuncLightColor);
-	border-right-color: var(--strFuncShadeColor);
-	border-bottom-color: var(--strFuncShadeColor);
-	color: var(--strTextColor);
-	background-color: var(--strExBGColor);
-
 	border-width: 1pt;
 	cursor: pointer;	
 	box-shadow: 0.2em 0.3em 0.2em var(--strFuncShadeColor);
@@ -631,7 +624,7 @@ div.CardStyle {
 	border-width: 1pt;
 	color: var(--strTextColor);
 	box-shadow: 0.2em 0.3em 0.2em var(--strTextColor);
-	background-color: var(--strExBGColor);
+
 	left: -50px;
 	top: -50px;
 	overflow: visible;
@@ -1076,7 +1069,7 @@ function StartUp(){
 
 
 
-	PreloadImages('Imagen/anterior1.png','Imagen/inidece1.png','../../../../../Nueva Espa&#x00F1;a/2023 programas/template616/Imagen/Iniciar.png','Imagen/seis.png','Imagen/comprobar1.png','Imagen/esfera11.jpg','Imagen/cono12.jpg','Imagen/cilindro12.jpg','Imagen/pista1.png','Imagen/prisma12.jpg','Imagen/pi.png','Imagen/siguiente1.png');
+	PreloadImages('Imagen/anterior1.png','Imagen/Iniciar.png','Imagen/siguiente1.png','Imagen/seis.png','Imagen/esfera11.jpg','Imagen/cono12.jpg','Imagen/cilindro12.jpg','Imagen/pista1.png','Imagen/prisma12.jpg','Imagen/pi.png');
 
 
 	var i = 0;
@@ -1382,15 +1375,15 @@ function TypeChars(Chars){
 <div class="NavButtonBar" id="TopNavBar">
 
 
-<button class="NavButton" onclick="history.back(); return false;"><img src="Imagen/anterior1.png" alt="anterior1.png" title="anterior1" width="80" height="22"></img></button>
+<button class="NavButton" onclick="history.back(); return false;"><img src="Imagen/anterior1.png" alt="anterior1.png" title="anterior1" width="100" height="28"></img></button>
 
 
 
-<button class="NavButton" onclick="location='poli.htm'; return false;"> <img src="Imagen/inidece1.png" alt="inidece1.png" title="inidece1" width="100" height="28"></img> </button>
+<button class="NavButton" onclick="location='poli.htm'; return false;"> <img src="Imagen/Iniciar.png" alt="Iniciar.png" title="Iniciar" width="100" height="28"></img> </button>
 
 
 
-<button class="NavButton" onclick="location='poligono_7.htm'; return false;"><img src="../../../../../Nueva Espa&#x00F1;a/2023 programas/template616/Imagen/Iniciar.png" alt="Iniciar.png" title="Iniciar" width="100" height="28"/></button>
+<button class="NavButton" onclick="location='poligono_7.htm'; return false;"><img src="Imagen/siguiente1.png" alt="siguiente1.png" title="siguiente1" width="100" height="28"></img></button>
 
 
 </div>
@@ -1436,7 +1429,7 @@ function TypeChars(Chars){
 
 <!-- These top buttons hidden; reveal if required -->
 <!--
-<button id="CheckButton1" class="FuncButton" onclick="CheckAnswers()">&#160;<img src="Imagen/comprobar1.png" alt="comprobar1.png" title="comprobar1" width="100" height="28"></img>&#160;</button>
+<button id="CheckButton1" class="FuncButton" onclick="CheckAnswers()">&#160;Comprobar&#160;</button>
 
 
 
@@ -1452,7 +1445,7 @@ function TypeChars(Chars){
 
 
 
-<button id="CheckButton2" class="FuncButton" onclick="CheckAnswers()">&#160;<img src="Imagen/comprobar1.png" alt="comprobar1.png" title="comprobar1" width="100" height="28"></img>&#160;</button>
+<button id="CheckButton2" class="FuncButton" onclick="CheckAnswers()">&#160;Comprobar&#160;</button>
 
 
 
@@ -1463,7 +1456,7 @@ function TypeChars(Chars){
 
 <div class="Feedback" id="FeedbackDiv">
 <div class="FeedbackText" id="FeedbackContent"></div>
-<button id="FeedbackOKButton" class="FuncButton" onclick="HideFeedback(); return false;">&#160;<img src="Imagen/siguiente1.png" alt="siguiente1.png" title="siguiente1" width="145" height="40"></img>&#160;</button>
+<button id="FeedbackOKButton" class="FuncButton" onclick="HideFeedback(); return false;">&#160;Correcto&#160;</button>
 </div>
 
 <!-- BeginBottomNavButtons -->
@@ -1472,15 +1465,15 @@ function TypeChars(Chars){
 <div class="NavButtonBar" id="BottomNavBar">
 
 
-<button class="NavButton" onclick="history.back(); return false;"><img src="Imagen/anterior1.png" alt="anterior1.png" title="anterior1" width="80" height="22"></img></button>
+<button class="NavButton" onclick="history.back(); return false;"><img src="Imagen/anterior1.png" alt="anterior1.png" title="anterior1" width="100" height="28"></img></button>
 
 
 
-<button class="NavButton" onclick="location='poli.htm'; return false;"> <img src="Imagen/inidece1.png" alt="inidece1.png" title="inidece1" width="100" height="28"></img> </button>
+<button class="NavButton" onclick="location='poli.htm'; return false;"> <img src="Imagen/Iniciar.png" alt="Iniciar.png" title="Iniciar" width="100" height="28"></img> </button>
 
 
 
-<button class="NavButton" onclick="location='poligono_7.htm'; return false;"><img src="../../../../../Nueva Espa&#x00F1;a/2023 programas/template616/Imagen/Iniciar.png" alt="Iniciar.png" title="Iniciar" width="100" height="28"/></button>
+<button class="NavButton" onclick="location='poligono_7.htm'; return false;"><img src="Imagen/siguiente1.png" alt="siguiente1.png" title="siguiente1" width="100" height="28"></img></button>
 
 
 </div>
